@@ -1,0 +1,98 @@
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 80%;
+}
+.sidebar {
+    width: 250px;
+    border-radius: 14px;
+    background: linear-gradient(180deg, #D42EE3 36%, #75197D 100%);
+    box-shadow: 4px 5px 4px 0px rgba(83, 77, 176, 0.67);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #9151f8;
+    margin-bottom: 10px;
+}
+.sidebar .social-icons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social-icons a {
+    margin: 5px 0;
+    color: white;
+    text-decoration: none;
+}
+.form-section {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.form-group {
+    margin-bottom: 15px;
+    padding: 10px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #1b1b2f;
+    color: rgb(0, 0, 0);
+}
+.form-group input {
+    outline: none;
+    background-color: #fcddfc;
+}
+.submit-btn {
+    padding: 10px;
+    background-color: #9151f8;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.submit-btn {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #4A0E50 36%, #A820B6 100%);
+}
+
+#menu {
+    width: 100px;
+    background: linear-gradient(180deg, #23214A 0%, #534DB0 100%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-radius: 0%;
+}
